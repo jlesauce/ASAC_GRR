@@ -1,0 +1,79 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+include/connect.inc.php
+include/config_CAS.inc.php
+include/config_ldap.inc.php
+include/cas.inc.php
+include/config.inc.php
+<<<<<<< HEAD
+include/connect.inc.php
+=======
+.idea
+>>>>>>> 0b07bc4c959e8fa5549eb917a4460928df4d9308
+/edit_entry_handler.ori.php
+/test_date.php
+*.ori.php
+/year-dev.php
+/year-dev_all.php
+/year2.php
+
+
+images/62c70fd595a268755e579d5cfd7c0487.png
+personnalisation/images/logos/.test
+images/.test
+personnalisation/connect.inc.php
+personnalisation/css/perso.css
+personnalisation/css/perso.css
+vendor/gregwar/captcha/demo/demo.php
+vendor/gregwar/captcha/demo/fingerprint.php
+vendor/gregwar/captcha/demo/form.php
+vendor/gregwar/captcha/demo/index.php
+vendor/gregwar/captcha/demo/inline.php
+vendor/gregwar/captcha/demo/ocr.php
+vendor/gregwar/captcha/demo/output.php
+vendor/gregwar/captcha/demo/session.php
+personnalisation/langue/lang_subst.fr-fr.php
+personnalisation/configperso.inc.php
+personnalisation/css/perso.css

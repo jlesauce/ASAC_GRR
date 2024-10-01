@@ -1,0 +1,167 @@
+/* body */
+body{font-size:14px;font-family:arial,verdana,sans-serif;width:100%;margin:0 auto}
+a{text-decoration:none;}
+a:link,a:visited{font-weight:700;text-decoration:none;}
+a.poplight{display:block;font-weight:400;font-size:14px;width:100%;vertical-align:middle;text-align:center;cursor:pointer;font-weight:700;text-decoration:none}
+a.lienCellule{display:block;font-weight:400;font-size:14px;width:100%;vertical-align:middle;text-align:center;cursor:pointer;font-weight:700;text-decoration:none}
+caption{text-align: center}
+.small{font-size:.8em}
+.tiny{font-size:.5em}
+.larger{font-size:1.4em}
+.avertissement{background-color:#ff8585;text-align:center}
+.bground{background-color:#AAA;}
+.center{width:100%;margin-left:auto;margin-right:auto;text-align:center}
+.left{float:left}
+.right{float:right}
+.fontcolor1{color:#fff}
+.fontcolor2,.fontcolor3{color:#9CF}
+.fontcolor4{color:#FFF}
+.image{border:0;vertical-align:middle}
+.popup_block{display:none;padding-left:20px!important;border:10px solid #ddd;float:left;font-size:1.2em;position:fixed;top:10%;left:50%;z-index:99999;-webkit-box-shadow:0 0 20px #000;-moz-box-shadow:0 0 20px #000;box-shadow:0 0 20px #000}
+html #fade,html .popup_block{position:absolute;background-color:white;}
+.table-noborder{width:100%;border:0px !important}
+.texte_ress_tempo_indispo{color:#ba2828;font-weight:700}
+.texte_ress_moderee{color:#ba2828;font-weight:700}
+.pleine{width:100% !important;}
+.progress{margin-bottom:0px;}
+#chargement{left:35%;top:322px;position:absolute;display:none;z-index:10}
+#chargement p{padding:0;background-color:gray}
+#chargement img{border:2px solid #000}
+td.CC{vertical-align:middle;text-align:center;}
+td.CR{vertical-align:middle;text-align:right}
+td.CL{vertical-align:middle;text-align:left}
+td.BR{vertical-align:baseline;text-align:right}
+td.BL{vertical-align:baseline;text-align:left}
+td.TR{vertical-align:top;text-align:right}
+td.TL{vertical-align:top;text-align:left}
+td.calendar2{text-align:center;border:2px;font-size:8pt}
+td.calendarHeader2{text-align:center;border:0;font-size:10pt;width:200px;font-weight:bold;font-size:18px;}
+
+/* header */
+header{width:100%;z-index:999;text-align:center;border-bottom:1px solid;}
+.accueil{background-color: transparent;padding-left:1%; width:30%;display:inline-block}
+.administration{background-color: transparent;width:15%;text-align:center;margin:0 auto;display:inline-block}
+.clock{margin:0 auto}
+.configuration{background-color: transparent;width:22%;text-align:center;margin:0 auto;display:inline-block;float:right}
+.contactformulaire{background-color: transparent;width:15%;vertical-align:middle;text-align:center;display:inline-block}
+.logo{min-width:.1%;max-width:18%;min-height:.1%;max-height:115px;display:inline-block;float:left}
+.logo img{margin-top:5px;margin-left:5px;max-height:115px}
+#Date{font-size:1em;text-align:center;font-weight:700}
+#panel{width:100%;overflow:hidden;position:relative;z-index:3}
+/* section */
+.row2{width:100%;padding: 0 0 0 0;}
+#fixe{position:fixed;right:5%;bottom:5%}
+#toTop{width:100px;border:1px solid #ccc;background-color:#f7f7f7;color:black;text-align:center;padding:5px;position:fixed;bottom:10px;right:10px;cursor:pointer;font-family:verdana;font-size:14px}
+/* menu gauche */
+#menuHaut{float:left;width:100%;display:none}
+#menuGauche2{float:left;height:100%;min-width:230px;width:25%;padding-bottom:10px;display:inline-block}
+#cacher{display:none}
+#voir{display:block}
+table.calendar{text-align:center;padding:1px;margin:auto;}
+a.cellcalendar{display:block;height:100%;width:100%;vertical-align:middle;text-align:center}
+.calendar td{vertical-align:middle;text-align:center;height:30px;width:40px;line-height:30px}
+.cellcalendar a:hover{background-color:#f00;color:#999;}
+.cal_current_day{color:#000;}
+.calendarcol1{padding:0;font-weight:700;text-align:center;height:30px;width:40px;line-height:30px}
+table.legende{padding:5px;width:100%;}
+table.legende td{width:50%;text-align:center}
+.week td a{vertical-align:middle;text-align:center;height:100%;width:100%}
+.panel-body { padding:0px; }
+.panel-body table tr td { padding-left: 15px }
+.panel-body .table {margin-bottom: 0px; }
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+/* planning2 */
+#planning2{text-align:center;min-width:600px;display:inline-block;width:100%;}
+#print_planning{position:relative;height:100%;width:auto}
+#lienPrecedent a{text-align:left;font-size:20px}
+/*a.lienCellule{color:#000;font-weight:400;display:block}*/
+a:hover.lienCellule{color:#999;font-weight:700;display:block}
+a.lienPlanning:hover{display:block;color:#AAA;}
+td.cell_hours{color:#fff;background-color:gray;text-align:center;font-size:13px;height:20px;line-height:20px;}
+td.cell_hours a{color:#fff}
+td.cell_hours2{color:#000;background-color:#ccc !important;text-align:center;font-size:13px;height:20px;line-height:20px;}
+td.cell_hours2 a{color:#000;}
+.cell_hours a{color:white;}
+td.cell_month_o{background-color:#ccc}
+.empty_cell{text-align:center;min-height:20px;height:100%;vertical-align:middle}
+.empty_cell a{display:block;}
+.empty_cell a:hover{background:lightgrey;;}
+.jour, .mois, .semaine{width:100%;text-align:center;vertical-align:top;}
+.jour caption, .mois caption, .semaine caption{padding: 0 0 0 0;text-align:center;}
+.jour th, .mois th, .semaine th{text-align:center;background-color:white;}
+.jour td, .mois td{vertical-align:top;}
+th.cell_hours{background-color:gray;color:white;}
+th.jour_sem{width:10%;background-color:gray;color:white;}
+.jour_sem a{color:white;}
+.jour_sem a:hover, .cell_hours a:hover, .ferie a:hover, .vacance a:hover{color:#999;}
+.vacance, .vacance a{background-color:rgb(46,204,113) !important;color:black !important;}
+.ferie, .ferie a{background-color:#c0392b !important;color:white !important;}
+.ligne23{min-height:23px;text-align:center;}
+.small_planning{font-size:.9em}
+.monthday{font-size:2.1em;text-align:center}
+.titre_planning{position:relative;width:100%;display:block;text-align:center;font-size:1.2em}
+.titre_planning table{border:0}
+.dropdown-menu > li > a.active{background-color: #F5F5F5; color: #FF0000;}
+.dropdown .actif{background-color: #2C6CA3;border-color: #2E6DA4; color: #FFF;}
+/* edit_entry */
+#choix_beneficiaire > #menu4{display:none;}
+
+a[href]:after {
+	content: "";
+}
+
+@media only screen and (max-width:800px) { 
+	.accueil {
+		display:none;
+		}
+	#element{
+		left:0px;
+		display:none;
+	}
+	.popup_block{
+		width:100%!important;
+		margin-left:0px!important;
+		left:0px!important;
+		margin-top:0px!important;
+		top:0px!important;
+		}
+	#popup_name{
+	left:0px;
+	FLOAT:LEFT;
+	}
+}
+
+#datepicker-container{
+  text-align:center;
+}
+#datepicker-center{
+  display:inline-block;
+  margin:0 auto;
+  padding: 10px;
+}
+div.ui-datepicker{
+ font-size:110%;
+ z-index: 2000 !important;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+    margin-left: 30%;
+}
+
+
+.ui-datepicker-prev span {
+    background-image: url('../../../img_grr/flechegauche.png') !important;
+        background-position: 0px 0px !important;
+}
+
+.ui-datepicker-next span {
+    background-image: url('../../../img_grr/flechedroite.png') !important;
+        background-position: 0px 0px !important;
+}
